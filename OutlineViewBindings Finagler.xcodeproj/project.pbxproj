@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1043C12295A0DF50037E3EE /* MDAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1043C11295A0DF50037E3EE /* MDAppController.m */; };
+		C1043C14295A0DF60037E3EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1043C13295A0DF60037E3EE /* Assets.xcassets */; };
+		C1043C17295A0DF60037E3EE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1043C15295A0DF60037E3EE /* MainMenu.xib */; };
+		C1043C19295A0DF60037E3EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1043C18295A0DF60037E3EE /* main.m */; };
+		C1043C22295A0E8B0037E3EE /* MDTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C1043C21295A0E8B0037E3EE /* MDTreeNode.m */; };
+		C1043C25295A0FB40037E3EE /* MDFile.m in Sources */ = {isa = PBXBuildFile; fileRef = C1043C24295A0FB40037E3EE /* MDFile.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C1043C0D295A0DF50037E3EE /* OutlineViewBindings Finagler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OutlineViewBindings Finagler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1043C10295A0DF50037E3EE /* MDAppController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDAppController.h; sourceTree = "<group>"; };
+		C1043C11295A0DF50037E3EE /* MDAppController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDAppController.m; sourceTree = "<group>"; };
+		C1043C13295A0DF60037E3EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1043C16295A0DF60037E3EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C1043C18295A0DF60037E3EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1043C1A295A0DF60037E3EE /* OutlineViewBindings_Finagler.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OutlineViewBindings_Finagler.entitlements; sourceTree = "<group>"; };
+		C1043C20295A0E8B0037E3EE /* MDTreeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDTreeNode.h; sourceTree = "<group>"; };
+		C1043C21295A0E8B0037E3EE /* MDTreeNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDTreeNode.m; sourceTree = "<group>"; };
+		C1043C23295A0FB40037E3EE /* MDFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDFile.h; sourceTree = "<group>"; };
+		C1043C24295A0FB40037E3EE /* MDFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDFile.m; sourceTree = "<group>"; };
+		C1043C26295A24570037E3EE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1043C0A295A0DF50037E3EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1043C04295A0DF40037E3EE = {
+			isa = PBXGroup;
+			children = (
+				C1043C0F295A0DF50037E3EE /* OutlineViewBindings Finagler */,
+				C1043C0E295A0DF50037E3EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1043C0E295A0DF50037E3EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1043C0D295A0DF50037E3EE /* OutlineViewBindings Finagler.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1043C0F295A0DF50037E3EE /* OutlineViewBindings Finagler */ = {
+			isa = PBXGroup;
+			children = (
+				C1043C26295A24570037E3EE /* README.md */,
+				C1043C10295A0DF50037E3EE /* MDAppController.h */,
+				C1043C11295A0DF50037E3EE /* MDAppController.m */,
+				C1043C15295A0DF60037E3EE /* MainMenu.xib */,
+				C1043C20295A0E8B0037E3EE /* MDTreeNode.h */,
+				C1043C21295A0E8B0037E3EE /* MDTreeNode.m */,
+				C1043C23295A0FB40037E3EE /* MDFile.h */,
+				C1043C24295A0FB40037E3EE /* MDFile.m */,
+				C1043C13295A0DF60037E3EE /* Assets.xcassets */,
+				C1043C18295A0DF60037E3EE /* main.m */,
+				C1043C1A295A0DF60037E3EE /* OutlineViewBindings_Finagler.entitlements */,
+			);
+			path = "OutlineViewBindings Finagler";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1043C0C295A0DF50037E3EE /* OutlineViewBindings Finagler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1043C1D295A0DF60037E3EE /* Build configuration list for PBXNativeTarget "OutlineViewBindings Finagler" */;
+			buildPhases = (
+				C1043C09295A0DF50037E3EE /* Sources */,
+				C1043C0A295A0DF50037E3EE /* Frameworks */,
+				C1043C0B295A0DF50037E3EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OutlineViewBindings Finagler";
+			productName = "OutlineViewBindings Finagler";
+			productReference = C1043C0D295A0DF50037E3EE /* OutlineViewBindings Finagler.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1043C05295A0DF40037E3EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = MD;
+				LastUpgradeCheck = 1320;
+				ORGANIZATIONNAME = "Mark Douma";
+				TargetAttributes = {
+					C1043C0C295A0DF50037E3EE = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = C1043C08295A0DF40037E3EE /* Build configuration list for PBXProject "OutlineViewBindings Finagler" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1043C04295A0DF40037E3EE;
+			productRefGroup = C1043C0E295A0DF50037E3EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1043C0C295A0DF50037E3EE /* OutlineViewBindings Finagler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1043C0B295A0DF50037E3EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1043C14295A0DF60037E3EE /* Assets.xcassets in Resources */,
+				C1043C17295A0DF60037E3EE /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1043C09295A0DF50037E3EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1043C25295A0FB40037E3EE /* MDFile.m in Sources */,
+				C1043C22295A0E8B0037E3EE /* MDTreeNode.m in Sources */,
+				C1043C19295A0DF60037E3EE /* main.m in Sources */,
+				C1043C12295A0DF50037E3EE /* MDAppController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C1043C15295A0DF60037E3EE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1043C16295A0DF60037E3EE /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1043C1B295A0DF60037E3EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C1043C1C295A0DF60037E3EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C1043C1E295A0DF60037E3EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "OutlineViewBindings Finagler/OutlineViewBindings_Finagler.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 100;
+				DEVELOPMENT_TEAM = YP47SDZM4G;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.markdouma.OutlineViewBindingsFinagler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		C1043C1F295A0DF60037E3EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "OutlineViewBindings Finagler/OutlineViewBindings_Finagler.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 100;
+				DEVELOPMENT_TEAM = YP47SDZM4G;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.markdouma.OutlineViewBindingsFinagler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1043C08295A0DF40037E3EE /* Build configuration list for PBXProject "OutlineViewBindings Finagler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1043C1B295A0DF60037E3EE /* Debug */,
+				C1043C1C295A0DF60037E3EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1043C1D295A0DF60037E3EE /* Build configuration list for PBXNativeTarget "OutlineViewBindings Finagler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1043C1E295A0DF60037E3EE /* Debug */,
+				C1043C1F295A0DF60037E3EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1043C05295A0DF40037E3EE /* Project object */;
+}
